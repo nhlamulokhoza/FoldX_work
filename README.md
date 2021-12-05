@@ -9,6 +9,7 @@ There are five scripts:
 
 
 merge.sh
+
 This script compresses, indexes, and merges all .vcfs into one larger .vcf. The larger .vcf file will be the input for Ensembl's variant effect predictor (VeP).
 
 Run_VeP.sh
