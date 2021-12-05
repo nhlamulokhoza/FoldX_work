@@ -4,12 +4,10 @@ import os
 import sys
 
 f = open('haplotypes.txt', 'r')
+
 hap_names = []
-
-
 data = []
 uniq_names = []
-
 
 for line in f:
     line = line.strip()
@@ -17,7 +15,6 @@ for line in f:
 
 for elem in hap_names:
     g = open(elem, 'r')
-
     
     for line in g:
         line = line.strip()[:-1].split(',')
