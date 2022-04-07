@@ -16,7 +16,7 @@ This script compresses, indexes, and merges all .vcfs into one larger .vcf. The 
 
 Run_VeP.sh
 
-Alternatively, one may choose not to run this script but the web interface of VeP and would not be required to run this script, provided that they filter for missense variants.
+Run_VeP.sh is optional. One may choose not to run this script but the web interface of VeP and filter for filter for missense variants.
 
 HapPrep.sh
 
